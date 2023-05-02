@@ -57,7 +57,7 @@
             cursor: pointer;
 
             &::before {
-                content: url("./public/icons/arrow-down.svg");
+                content: url("/src/img/icons/arrow-down.svg");
                 display: block;
                 position: relative;
                 width: 32px;

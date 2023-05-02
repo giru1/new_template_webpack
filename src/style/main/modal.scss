@@ -7,11 +7,15 @@
     z-index: 2;
     width: 500px;
 
-    &__wrap {
-        & .input__block_box {
-            flex-direction: column;
-        }
+    &__wrap-inputs {
+        flex-direction: column;
+    }
 
+    &__input-wrap {
+        max-width: 100%;
+    }
+
+    &__wrap {
         & .input__block_inline {
             max-width: 100%;
         }

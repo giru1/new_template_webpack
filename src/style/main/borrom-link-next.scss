@@ -8,12 +8,12 @@
     padding-left: 50px;
 
     &::after {
-        content: url("../public/icons/arrow-right.svg");
+        content: url("/src/img/icons/arrow-right.svg");
         margin-left: 20px;
     }
 
     &::before {
-        content: url("../public/icons/cloud.svg");
+        content: url("/src/img/icons/cloud.svg");
         position: absolute;
         margin-right: 20px;
         left: 0;
