@@ -93,6 +93,7 @@
       <change afterPath="$PROJECT_DIR$/src/style/main/success.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/style/main/textarea.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-700.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-700.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-regular.woff" beforeDir="false" />
@@ -180,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683007135957</updated>
-      <workItem from="1683007137318" duration="6996000" />
+      <workItem from="1683007137318" duration="7427000" />
     </task>
     <servers />
   </component>
