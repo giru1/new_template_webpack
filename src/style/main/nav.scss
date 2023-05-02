@@ -1,0 +1,11 @@
+.nav {
+    &__list {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    &__link {
+        font-size: 18px;
+    }
+}

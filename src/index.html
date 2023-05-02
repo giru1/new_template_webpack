@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="src/img/favicon/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <meta name="description"
+          content="Rig Line - продажа систем видеонаблюдения. Монтаж, установка, обслуживание, ремонт. Выбрать и купить, в наличии и на заказ. Камера цена. Купить камеры видеонаблюдения в Оренбурге">
+    <meta name="keywords" content="Видеонаблюдение, видеокамера, видеорегистратор, монтаж, ремонт, обслуживание">
+    <title>Rig Line</title>
+</head>
+<body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	(function (m, e, t, r, i, k, a) {
+		m[i] = m[i] || function () {
+			(m[i].a = m[i].a || []).push(arguments)
+		};
+		m[i].l = 1 * new Date();
+		for (var j = 0; j < document.scripts.length; j++) {
+			if (document.scripts[j].src === r) {
+				return;
+			}
+		}
+		k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+	})
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+	
+	ym(93268736, "init", {
+		clickmap: true,
+		trackLinks: true,
+		accurateTrackBounce: true,
+		webvisor: true
+	});
+</script>
+<noscript>
+    <div>
+        <img src="https://mc.yandex.ru/watch/93268736" style="position:absolute; left:-9999px;" alt=""/>
+    </div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<header class="header">
+    <div class="container">
+        <div class="row header__block">
+            <a href="/" class="logo header__logo">
+                <img src="../src/img/logo.png" alt="rig-line" class="logo__img">
+                <p class="logo__text">Rig Line</p>
+            </a>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <a href="/" class="nav__link link">Главная</a>
+                    <a href="#services" class="nav__link link">Услуги</a>
+                    <!--                    <a href="#process" class="nav__link link">Как мы работаем</a>-->
+                    <!--                    <a href="#projects" class="nav__link link">Портфолио</a>-->
+                    <a href="#about" class="nav__link link">О нас</a>
+                    <a href="#footer" class="nav__link link">Контакты</a>
+                </ul>
+            </nav>
+            <div class="header__info info col-2 d-none">
+                <a href="tel:89878911061" class="info__phone">+7 (727) 334-21-48</a>
+                <!--                <address class="info__address">Алматы, Жамбыла 111</address>-->
+                <button class="info__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@getbootstrap">Заказать
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="main">
+    <div class="main__bg"></div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../src/img/1.jpg" alt="" class="main__img">
+                <div class="main__block">
+                    <h1 class="main__title title">ИТ решения для вас</h1>
+                    <button class="main__button button open-modal">Запросить консультацию                    </button>
+                    <!--                <div class="main__button_down"></div>-->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../src/img/2.jpg" alt="" class="main__img">
+                <div class="main__block">
+                    <h1 class="main__title title">Разработка сайтов, приложений, интернет проектов</h1>
+                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@getbootstrap">Запросить консультацию
+                    </button>
+                    <!--                <div class="main__button_down"></div>-->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../src/img/3.jpg" alt="" class="main__img">
+                <div class="main__block">
+                    <h1 class="main__title title">Автоматизация ИТ инфраструктуры</h1>
+                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@getbootstrap">Запросить консультацию
+                    </button>
+                    <!--                <div class="main__button_down"></div>-->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../src/img/4.jpg" alt="" class="main__img">
+                <div class="main__block">
+                    <h1 class="main__title title">Системы видеонаблюдения</h1>
+                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@getbootstrap">Запросить консультацию
+                    </button>
+                    <!--                <div class="main__button_down"></div>-->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../src/img/5.jpg" alt="" class="main__img">
+                <div class="main__block">
+                    <h1 class="main__title title">Аутсорсинг ИТ инфраструктуры</h1>
+                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@getbootstrap">Запросить консультацию
+                    </button>
+                    <!--                <div class="main__button_down"></div>-->
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<section class="benefit">
+    <div class="container">
+        <div class="row benefit__items items">
+            <div class="item col-lg-4 col-md-6 col-sm-6">
+                <div class="item__number">3</div>
+                <div class="item__text">Дня на интеграцию наших решений</div>
+            </div>
+            <div class="item col-lg-4 col-md-6 col-sm-6">
+                <div class="item__number">58</div>
+                <div class="item__text">Постоянных клиентов на обслуживании</div>
+            </div>
+            <div class="item col-lg-4 col-md-6 col-sm-6">
+                <div class="item__number">100%</div>
+                <div class="item__text">Эффективность системы видеонаблюдения</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <img src="../src/img/about.jpg" class="about__img col-sm-12 col-md-6">
+            <div class="about__desc col-sm-12 col-md-6">
+                <h2 class="about__title title-h2">Гарантируем качество и выполнение в сроки</h2>
+                <p class="about__text">Мы просто умеем разрабатывать то, что нужно. То, что будет работать! То что нужно
+                    вашему бизнесу!</p>
+                <button class="about__button button open-modal" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@getbootstrap">Запросить консультацию
+                </button>
+                <small class="about__text_small">С 2010 года профессионально разрабатываем успешные мобильные и
+                    веб-решения, индивидуальные программные решения, информационные системы и ПО для бизнеса, которые
+                    повышают эффективность бизнеса.</small>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="services__title title-h2">
+            Основные услуги
+        </h2>
+        <div class="row services__cards">
+            <div class="services__card">
+                <img src="src/img/icons/services/1.png" alt="" class="services__card_img">
+                <div class="services__card__title">ИТ решения для вас</div>
+                <div class="services__card__desc">Поможешь подобрать правильные ИТ решения для вас и вашего бизнеса.
+                </div>
+                <a href="" class="bottom-link-next">Узнать больше</a>
+            </div>
+            <div class="services__card">
+                <img src="src/img/icons/services/2.png" alt="" class="services__card_img">
+                <div class="services__card__title">Разработка сайтов, приложений, интернет проектов</div>
+                <div class="services__card__desc">Создадим нужную для вас платформу для реализации ваших идей.</div>
+                <a href="" class="bottom-link-next">Узнать больше</a>
+            </div>
+            <div class="services__card">
+                <img src="src/img/icons/services/3.png" alt="" class="services__card_img">
+                <div class="services__card__title">Автоматизация ИТ инфраструктуры</div>
+                <div class="services__card__desc">Поможем подобрать, построить, обновить, настроить ИТ инструменты для
+                    Вас
+                </div>
+                <a href="" class="bottom-link-next">Узнать больше</a>
+            </div>
+            <div class="services__card">
+                <img src="src/img/icons/services/4.png" alt="" class="services__card_img">
+                <div class="services__card__title">Система видеонаблюдения</div>
+                <div class="services__card__desc">Внедрим и оптимизируем вашу систему видеонаблюдения для лучшего
+                    контроля ваших объектов.
+                </div>
+                <a href="" class="bottom-link-next">Узнать больше</a>
+            </div>
+            <div class="services__card">
+                <img src="src/img/icons/services/5.png" alt="" class="services__card_img">
+                <div class="services__card__title">Аутсорсинг ИТ инфраструктуры</div>
+                <div class="services__card__desc">Обеспечим комплексное сопровождение ИТ-инфраструктуры. Окажем
+                    поддержку рабочих мест, прикладного ПО, периферийного оборудования.
+                </div>
+                <a href="" class="bottom-link-next">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="projects d-none" id="projects">
+    <div class="container">
+        <h2 class="services__title title-h2">
+            Наши проекты
+        </h2>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active block-default__items">
+                    <div class="block-default">
+                        <img src="../src/img/project/1.jpg" alt="" class="block-default__img">
+                        <div class="block-default__info">
+                            <div class="block-default__title">Компания по производству фотокниг Fototeca</div>
+                            <div class="block-default__text">Программное решение, автоматизирующее производство изделий
+                                – от создания
+                                дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному
+                                фотографу –
+                                клиенту компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и
+                                сразу
+                                передать заказ в производство.
+                            </div>
+                            <a href="" class="bottom-link-next">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="block-default">
+                        <img src="../src/img/project/1.jpg" alt="" class="block-default__img">
+                        <div class="block-default__info">
+                            <div class="block-default__title">Компания по производству фотокниг Fototeca</div>
+                            <div class="block-default__text">Программное решение, автоматизирующее производство изделий
+                                – от создания
+                                дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному
+                                фотографу –
+                                клиенту компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и
+                                сразу
+                                передать заказ в производство.
+                            </div>
+                            <a href="" class="bottom-link-next">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="block-default">
+                        <img src="../src/img/project/1.jpg" alt="" class="block-default__img">
+                        <div class="block-default__info">
+                            <div class="block-default__title">Компания по производству фотокниг Fototeca</div>
+                            <div class="block-default__text">Программное решение, автоматизирующее производство изделий
+                                – от создания
+                                дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному
+                                фотографу –
+                                клиенту компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и
+                                сразу
+                                передать заказ в производство.
+                            </div>
+                            <a href="" class="bottom-link-next">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <button class="projects__button button"></button>
+    </div>
+</section>
+<section class="process d-none" id="process">
+    <div class="container">
+        <h2 class="process__title title-h2">Наш процесс работы</h2>
+        <div class="block-default__box">
+            ul.block-default__ul>
+            <div class="block-default">
+                <img src="../src/img/project/1.jpg" alt="" class="block-default__img">
+                <div class="block-default__info">
+                    <div class="block-default__title">Компания по производству фотокниг Fototeca</div>
+                    <div class="block-default__text">Программное решение, автоматизирующее производство изделий – от
+                        создания
+                        дизайна до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу –
+                        клиенту компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу
+                        передать заказ в производство.
+                    </div>
+                    <a href="" class="bottom-link-next">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</section>
+<section class="experience d-none">
+    <div class="container">
+        <div class="experience__title title-h2">Наш опыт</div>
+        <div class="row experience__cards cards">
+            <div class="experience__card card">
+                <img src="../src/img/experience/1.png" alt="" class="card__img">
+                <div class="card__info">
+                    <div class="card__title">Компания по производству фотокниг Fototeca</div>
+                    <div class="card__text">Программное решение, автоматизирующее производство изделий – от создания
+                        дизайна
+                        до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу – клиенту
+                        компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать
+                        заказ
+                        в производство.
+                    </div>
+                </div>
+            </div>
+            <div class="experience__card card">
+                <img src="../src/img/experience/2.png" alt="" class="card__img">
+                <div class="card__info">
+                    <div class="card__title">Компания по производству фотокниг Fototeca</div>
+                    <div class="card__text">Программное решение, автоматизирующее производство изделий – от создания
+                        дизайна
+                        до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу – клиенту
+                        компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать
+                        заказ
+                        в производство.
+                    </div>
+                </div>
+            </div>
+            <div class="experience__card card">
+                <img src="../src/img/experience/3.png" alt="" class="card__img">
+                <div class="card__info">
+                    <div class="card__title">Компания по производству фотокниг Fototeca</div>
+                    <div class="card__text">Программное решение, автоматизирующее производство изделий – от создания
+                        дизайна
+                        до выдачи клиенту. Была создана система, которая позволяет профессиональному фотографу – клиенту
+                        компании — формировать изделие (фотокнигу) в нужном формате и виде, оплатить и сразу передать
+                        заказ
+                        в производство.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="partners">
+    <div class="container">
+        <div class="row">
+            <h2 class="partners__title title-h2">С кем мы работаем</h2>
+            <div class="partners__items">
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/python.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/react.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/postgresql.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/vue.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/js.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/sql.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/python.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/react.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/postgresql.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/vue.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/js.svg" alt="" class="partners__img">
+                </div>
+                <div class="partners__item">
+                    <img src="src/img/icons/tech/sql.svg" alt="" class="partners__img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feedback">
+    <div class="feedback__block">
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5265546745949c31b2ca740a5fcca6e77efd0d2b1fc50dc4010c6e6e7aafa2ef&amp;width=100%25&amp;height=554&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+        <form action="/send.php" class="form" method="post" id="form">
+            <h3 class="form__title title">Есть вопросы? Задавайте!</h3>
+            <div class="form__block">
+                <div class="input__block">
+                    <input type="text" name="name" id="name" class="form__input input" placeholder=" ">
+                    <label for="name" class="input__label label">Имя</label>
+                </div>
+                <div class="input__block_box">
+                    <div class="input__block input__block_inline">
+                        <input type="email" name="email" id="email" class="form__input input" placeholder=" ">
+                        <label for="email" class="input__label label">E-mail</label>
+                    </div>
+                    <div class="input__block input__block_inline">
+                        <input type="tel" name="tel" id="tel" class="form__input input" placeholder=" ">
+                        <label for="tel" class="input__label label">Телефон</label>
+                    </div>
+                </div>
+                <div class="textarea__block input__block">
+                        <textarea name="text" id="text" cols="30" rows="10" class="form__textarea textarea"
+                                  placeholder=" "></textarea>
+                    <label for="text" class="textarea__label label">Message</label>
+                </div>
+                <button type="submit" class="form__button button">Отправить</button>
+            </div>
+        </form>
+    </div>
+</section>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer__block">
+            <a href="/" class="logo footer__logo">
+                <img src="../src/img/logo.png" alt="" class="logo__img">
+                <p class="logo__text">Rig Line</p>
+            </a>
+            <div class="header__info info">
+                <a href="tel:89878911061" class="info__phone">+7(987) 891-10-61</a>
+                <a href="mailto:reestr-it-group@yandex.ru" class="info__email">info@rig-line.ru</a>
+                <address class="info__address">г. Оренбург, ул. Монтажников 37/1</address>
+                <div class="info__messengers">
+                    <a href="http://t.me/+79878911061" class="info__messenger info__messenger_tel" target="_blank">
+                        Telegram
+                    </a>
+                    <a href="https://wa.me/+79878911061" class="info__messenger info__messenger_wat" target="_blank">
+                        Whatsapp
+                    </a>
+                </div>
+            </div>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <div class="nav__box">
+                        <a href="/" class="nav__link link">Главная</a>
+                        <a href="#services" class="nav__link link">Услуги</a>
+                        <!--                        <a href="" class="nav__link link">Как мы работаем</a>-->
+                    </div>
+                    <div class="nav__box">
+                        <!--                        <a href="" class="nav__link link">Портфолио</a>-->
+                        <a href="#about" class="nav__link link">О нас</a>
+                        <a href="#footer" class="nav__link link">Контакты</a>
+                    </div>
+                </ul>
+            </nav>
+        
+        </div>
+        <div class="row">
+            <div class="footer__bottom">
+                <hr class="footer__line">
+                <a class="footer__politics">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<div class="button-up d-none">
+    <img src="src/icons/arrow.svg" class="button-up__img">
+</div>
+
+<div class="modal-form">
+    <div class="modal-form__close-btn close-btn">x</div>
+    <form action="/send.php" class="form modal__wrap" method="post" id="form2">
+        <h3 class="form__title title">Есть вопросы? Задавайте!</h3>
+        <div class="form__block">
+            <div class="input__block">
+                <input type="text" name="name" class="form__input input" placeholder=" ">
+                <label for="name" class="input__label label">Имя</label>
+            </div>
+            <div class="input__block_box">
+                <div class="input__block input__block_inline">
+                    <input type="email" name="email" class="form__input input" placeholder=" ">
+                    <label for="email" class="input__label label">E-mail</label>
+                </div>
+                <div class="input__block input__block_inline">
+                    <input type="tel" name="phone" class="form__input input" placeholder=" ">
+                    <label for="tel" class="input__label label">Телефон</label>
+                </div>
+            </div>
+            <div class="textarea__block input__block">
+                        <textarea name="text" cols="30" rows="10" class="form__textarea textarea"
+                                  placeholder=" "></textarea>
+                <label for="text" class="textarea__label label">Message</label>
+            </div>
+            <button class="form__button button">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<div class="success">
+    <div class="success__title">Форма отправлена</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

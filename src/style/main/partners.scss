@@ -1,0 +1,21 @@
+.partners {
+    margin-bottom: 200px;
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @include phone {
+            justify-content: center;
+        }
+    }
+
+    &__item {
+        margin: 0 30px 30px;
+        width: 20%;
+        max-width: 96px;
+        display: flex;
+        justify-content: center;
+    }
+}

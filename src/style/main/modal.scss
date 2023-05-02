@@ -1,0 +1,36 @@
+.modal-form {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+
+    &__wrap {
+        & .input__block_box {
+            flex-direction: column;
+        }
+
+        & .input__block_inline {
+            max-width: 100%;
+        }
+    }
+
+    &__close-btn {
+        position: absolute;
+        right: 20px;
+        z-index: 5;
+        font-size: 30px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

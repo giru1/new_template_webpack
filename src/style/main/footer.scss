@@ -1,0 +1,81 @@
+.footer {
+
+    &__block {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        @include phone {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    &__logo {
+        @include phone {
+            max-width: 100%;
+        }
+    }
+
+    & .logo__text {
+        color: black;
+    }
+
+    & .info, & .nav__link {
+        color: black;
+    }
+
+    & .nav__link {
+        white-space: nowrap;
+        margin-bottom: 30px;
+    }
+
+    & .nav__box {
+        display: flex;
+        flex-direction: column;
+
+        &:nth-child(1) {
+            margin-right: 30px;
+        }
+    }
+
+    & .info {
+        align-items: flex-start;
+
+        @include phone {
+            align-items: center;
+        }
+
+        &__phone {
+            margin-left: 30px;
+        }
+    }
+
+    & .logo__text {
+        max-width: 250px;
+    }
+
+    & .nav {
+        @include smNotebook {
+            display: none;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__line {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    &__politics {
+        color: #BDBDBD;
+        font-size: 15px;
+        padding-bottom: 40px;
+        align-self: end;
+        text-decoration: underline;
+    }
+}

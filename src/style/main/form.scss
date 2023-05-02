@@ -1,0 +1,32 @@
+.form {
+    position: absolute;
+    right: 0;
+    padding: 39px 120px;
+    background: linear-gradient(243.89deg, #454c4b 2.05%, #282d2c 52.81%, #464444 75.54%, #111817 101.06%);
+
+    @include smNotebook {
+        width: 100%;
+        position: relative;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+        color: white;
+        font-size: 36px;
+        text-align: center;
+        padding-bottom: 40px;
+
+        @include phone {
+            font-size: 22px;
+        }
+    }
+
+    &__button {
+        background-color: #e5e7eb;
+        margin-top: 40px;
+    }
+}

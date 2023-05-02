@@ -1,0 +1,77 @@
+.input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    color: white;
+
+    &:hover {
+        border-bottom: 1px solid #ccc;
+    }
+
+    &:nth-child(1n) {
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    &__block {
+        position: relative;
+        &_inline {
+            max-width: 200px;
+            width: 100%;
+
+            @include table {
+                max-width: 100%;
+            }
+        }
+
+        &_box {
+            display: flex;
+            justify-content: space-between;
+
+            @include table {
+                flex-direction: column;
+            }
+        }
+    }
+
+    &__label {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.46);
+        font-size: 18px;
+        left: 20px;
+        top: -10px;
+    }
+}
+
+.textarea {
+    position: relative;
+    color: white;
+    background: transparent;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 15px;
+
+    &__label {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.46);
+        font-size: 18px;
+        left: 20px;
+        top: 30px;
+    }
+}
+
+.textarea:focus ~ .label, .textarea:not(:placeholder-shown) ~ .label {
+    top: -10px;
+    left: 0;
+}
+
+.input:focus ~ .label, .input:not(:placeholder-shown) ~ .label {
+    top: -25px;
+    left: 0;
+}

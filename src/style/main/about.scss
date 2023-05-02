@@ -1,0 +1,82 @@
+.about {
+    text-align: center;
+
+    &__desc {
+        position: relative;
+    }
+
+    &__title {
+        line-height: 45px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+
+        @include desktop {
+            font-size: 38px;
+        }
+        @include notebook {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        @include smNotebook {
+            margin-top: 0;
+        }
+
+        @include table {
+            font-size: 25px;
+        }
+
+        @include smPhone {
+            font-size: 25px;
+        }
+    }
+
+    &__text {
+        font-size: 23px;
+        margin-bottom: 20px;
+        max-width: 500px;
+        display: inline-flex;
+
+        @include notebook {
+            font-size: 20px;
+        }
+
+        @include smNotebook {
+            font-size: 18px;
+        }
+
+        &_small {
+            font-weight: 300;
+            font-size: 13px;
+            position: absolute;
+            bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            max-width: 550px;
+
+            @include smNotebook {
+               display: none;
+            }
+        }
+    }
+
+    &__button {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 267.5px;
+        height: 55px;
+        margin: 0 auto;
+    }
+
+    &__img {
+        @include table {
+            margin-bottom: 25px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.feedback {
+    margin-bottom: 100px;
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+}

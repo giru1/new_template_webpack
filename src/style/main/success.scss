@@ -1,0 +1,16 @@
+.success {
+    background: linear-gradient(243.89deg, #454c4b 2.05%, #282d2c 52.81%, #464444 75.54%, #111817 101.06%);
+    width: 300px;
+    height: 300px;
+    color: #FFFFFF;
+    //display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+    &__title {
+        font-size: 50px;
+        text-align: center;
+
+    }
+}

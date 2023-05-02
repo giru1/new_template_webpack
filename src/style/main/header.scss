@@ -1,0 +1,30 @@
+.header {
+    padding-top: 25px;
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    align-items: center;
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+
+        @include smNotebook {
+            justify-content: center;
+        }
+    }
+
+    &__nav {
+        max-width: 790px;
+
+        @include smNotebook {
+            display: none;
+        }
+    }
+
+    &__logo {
+        margin: 0;
+    }
+}

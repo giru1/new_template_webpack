@@ -1,0 +1,53 @@
+.services {
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+
+        @include table {
+            justify-content: center;
+        }
+    }
+
+    &__card {
+        position: relative;
+        padding: 0 60px 60px;
+        max-width: 340px;
+        min-width: 340px;
+        background: #FFFFFF;
+        box-shadow: 0 3px 11px rgba(152, 152, 152, 0.56);
+        border-radius: 10px;
+        margin-bottom: 50px;
+
+        @include notebook {
+            margin-bottom: 50px;
+        }
+
+        &_img {
+            position: absolute;
+            width: 70px;
+            right: 15px;
+        }
+
+        &::before {
+            content: url("../public/icons/corner.png");
+            position: absolute;
+            top: -9px;
+            right: -11px;
+        }
+
+        &__title {
+            padding: 60px 0 40px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__desc {
+            font-weight: 300;
+        }
+    }
+
+    & .block-default {
+        justify-content: center;
+        max-width: 1200px;
+    }
+}

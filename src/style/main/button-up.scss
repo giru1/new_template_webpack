@@ -1,0 +1,24 @@
+.button-up {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 3px solid grey;
+    border-radius: 100%;
+
+    &__img {
+        width: 25px;
+    }
+}
+
+//.button-up {
+//    display: block;
+//    background: url('public/icons/arrow.svg') center center no-repeat;
+//    height: 32px; width: 32px;
+//    position: fixed; bottom: 10px; right: 10px;
+//    z-index: 1;
+//}

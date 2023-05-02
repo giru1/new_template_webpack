@@ -1,0 +1,83 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    align-items: flex-end;
+    font-size: 18px;
+    justify-content: center;
+    color: white;
+
+    &__phone {
+        position: relative;
+        margin-bottom: 15px;
+        &::before {
+            content: url("/public/icons/phone.png");
+            display: block;
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            top: 2px;
+            left: -30px;
+        }
+    }
+
+    &__address {
+        position: relative;
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 35px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+
+        &::before {
+            content: url("/public/icons/map.png");
+            position: absolute;
+            top: 20px;
+            left: 0;
+        }
+    }
+
+    &__button {
+        color: white;
+        padding: 10px 40px;
+    }
+
+    &__email {
+        position: relative;
+        padding-left: 35px;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-bottom: 9px;
+        margin-top: 4px;
+
+        &::before {
+            content: url("/public/icons/mail.png");
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &__messenger {
+        position: relative;
+
+        &:nth-child(1) {
+            margin-right: 25px;
+        }
+
+        &_tel {
+            &::before {
+                content: url("/public/icons/telegram.svg");
+            }
+        }
+
+        &_wat {
+            &::before {
+                content: url("/public/icons/whatsapp.svg");
+            }
+        }
+
+        &_img {
+            position: absolute;
+        }
+    }
+}
