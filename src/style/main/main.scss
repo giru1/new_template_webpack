@@ -40,6 +40,10 @@
         @include table {
             font-size: 30px;
         }
+
+        @include phone {
+            font-size: 25px;
+        }
     }
 
     &__button {

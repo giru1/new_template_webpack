@@ -12,37 +12,13 @@
       <change beforePath="$PROJECT_DIR$/src/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/experience/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/experience/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/experience/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/experience/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/experience/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/experience/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/clip.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/clip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/corner.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/corner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/mail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/map.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/marks-left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/marks-left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/marks-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/marks-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/services/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/services/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/services/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/services/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/services/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/services/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/services/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/services/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/services/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/services/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/star.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/star.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/project/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/project/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main/borrom-link-next.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/borrom-link-next.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main/info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/info.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/logo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main/modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main/services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +43,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PROJECTS\rig-line-2\src\style" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\PROJECTS\rig-line-2\src" />
       <recent name="C:\PROJECTS\rig-line-2\src\img" />
       <recent name="C:\PROJECTS\rig-line-2\src\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PROJECTS\rig-line-2\src\style" />
     </key>
   </component>
   <component name="RunManager" selected="npm.build-prod">
@@ -137,6 +113,9 @@
       <option name="presentableId" value="Default" />
       <updated>1683007135957</updated>
       <workItem from="1683007137318" duration="14196000" />
+      <workItem from="1683033948277" duration="229000" />
+      <workItem from="1683090217386" duration="5666000" />
+      <workItem from="1683096452360" duration="1004000" />
     </task>
     <servers />
   </component>
@@ -153,28 +132,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4530" y="1346" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1683011685971">
       <screen x="3840" y="1079" width="1920" height="1040" />
     </state>
     <state x="4530" y="1346" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683011685971" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1683023885828">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1683096227993">
       <screen x="3840" y="1079" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683023885828" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1683023885828">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683096227993" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1683096227993">
       <screen x="3840" y="1079" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683023885828" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1683023885828">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683096227993" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1683096227992">
       <screen x="3840" y="1079" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683023885828" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1683023885828">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683096227992" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1683096227993">
       <screen x="3840" y="1079" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683023885828" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.2560.1400/3840.1079.1920.1040/-1920.1066.1920.1040/3840.-1.1280.680@3840.1079.1920.1040" timestamp="1683096227993" />
     <state x="4508" y="1177" width="583" height="843" key="find.popup" timestamp="1683016109373">
       <screen x="3840" y="1079" width="1920" height="1040" />
     </state>

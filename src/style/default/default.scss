@@ -61,3 +61,11 @@ body {
     background-image: url("/src/img/icons/slider/next.svg");
 }
 
+.carousel-control-next, .carousel-control-prev {
+    z-index: 5;
+    background-color: #ffffffb8;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    border-radius: 100%;
+}

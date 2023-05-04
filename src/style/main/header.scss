@@ -24,7 +24,15 @@
         }
     }
 
-    &__logo {
-        margin: 0;
+    &__logo-img {
+        background-color: #ffffff8a;
+        border-radius: 100%;
+        -moz-box-shadow:inset 0px 0px 3px 1px rgb(248, 248, 248);
+        -webkit-box-shadow:inset 0px 0px 3px 1px rgb(248, 246, 246);
+        box-shadow:inset 0px 0px 3px 1px rgb(250, 249, 249);
+    }
+
+    &__wrap-logo {
+
     }
 }

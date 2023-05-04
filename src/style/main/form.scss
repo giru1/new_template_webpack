@@ -9,6 +9,10 @@
         position: relative;
     }
 
+    @include phone {
+        padding: 39px 60px;
+    }
+
     &__block {
         display: flex;
         flex-direction: column;

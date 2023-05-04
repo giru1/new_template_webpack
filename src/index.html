@@ -45,7 +45,9 @@
     <div class="container">
         <div class="row header__block">
             <a href="/" class="logo header__logo">
-                <img src="/src/img/logo.png" alt="rig-line" class="logo__img">
+                <div class="header__wrap-logo">
+                    <img src="/src/img/logo.png" alt="rig-line" class="logo__img header__logo-img">
+                </div>
                 <p class="logo__text">Rig Line</p>
             </a>
             <nav class="header__nav nav">
@@ -70,63 +72,55 @@
 </header>
 <section class="main">
     <div class="main__bg"></div>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="4000">
                 <img src="../src/img/1.jpg" alt="" class="main__img">
                 <div class="main__block">
-                    <h1 class="main__title title">IT решения для вас</h1>
-                    <button class="main__button button open-modal">Запросить консультацию                    </button>
+                    <h1 class="main__title title">IT-решения для вас</h1>
+                    <button class="main__button button open-modal">Запросить консультацию</button>
                     <!--                <div class="main__button_down"></div>-->
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="../src/img/2.jpg" alt="" class="main__img">
                 <div class="main__block">
                     <h1 class="main__title title">Разработка сайтов, приложений, интернет проектов</h1>
-                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                            data-bs-whatever="@getbootstrap">Запросить консультацию
-                    </button>
+                    <button class="main__button button open-modal">Запросить консультацию</button>
                     <!--                <div class="main__button_down"></div>-->
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="../src/img/3.jpg" alt="" class="main__img">
                 <div class="main__block">
-                    <h1 class="main__title title">Автоматизация IT инфраструктуры</h1>
-                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                            data-bs-whatever="@getbootstrap">Запросить консультацию
-                    </button>
+                    <h1 class="main__title title">Автоматизация IT-инфраструктуры</h1>
+                    <button class="main__button button open-modal">Запросить консультацию</button>
                     <!--                <div class="main__button_down"></div>-->
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="../src/img/4.jpg" alt="" class="main__img">
                 <div class="main__block">
                     <h1 class="main__title title">Системы видеонаблюдения</h1>
-                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                            data-bs-whatever="@getbootstrap">Запросить консультацию
-                    </button>
+                    <button class="main__button button open-modal">Запросить консультацию</button>
                     <!--                <div class="main__button_down"></div>-->
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="4000">
                 <img src="../src/img/5.jpg" alt="" class="main__img">
                 <div class="main__block">
-                    <h1 class="main__title title">Аутсорсинг IT инфраструктуры</h1>
-                    <button class="main__button button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                            data-bs-whatever="@getbootstrap">Запросить консультацию
-                    </button>
+                    <h1 class="main__title title">Аутсорсинг IT-инфраструктуры</h1>
+                    <button class="main__button button open-modal">Запросить консультацию</button>
                     <!--                <div class="main__button_down"></div>-->
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                 data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -177,8 +171,8 @@
         <div class="row services__cards">
             <div class="services__card">
                 <img src="/src/img/icons/services/1.png" alt="" class="services__card_img">
-                <div class="services__card__title">IT решения для вас</div>
-                <div class="services__card__desc">Поможешь подобрать правильные IT решения для вас и вашего бизнеса.
+                <div class="services__card__title">IT-решения для вас</div>
+                <div class="services__card__desc">Поможешь подобрать правильные IT-решения для вас и вашего бизнеса.
                 </div>
                 <a href="" class="bottom-link-next">Узнать больше</a>
             </div>
@@ -190,8 +184,8 @@
             </div>
             <div class="services__card">
                 <img src="/src/img/icons/services/3.png" alt="" class="services__card_img">
-                <div class="services__card__title">Автоматизация IT инфраструктуры</div>
-                <div class="services__card__desc">Поможем подобрать, построить, обновить, настроить IT инструменты для
+                <div class="services__card__title">Автоматизация IT-инфраструктуры</div>
+                <div class="services__card__desc">Поможем подобрать, построить, обновить, настроить IT-инструменты для
                     Вас
                 </div>
                 <a href="" class="bottom-link-next">Узнать больше</a>
@@ -206,7 +200,7 @@
             </div>
             <div class="services__card">
                 <img src="/src/img/icons/services/5.png" alt="" class="services__card_img">
-                <div class="services__card__title">Аутсорсинг IT инфраструктуры</div>
+                <div class="services__card__title">Аутсорсинг IT-инфраструктуры</div>
                 <div class="services__card__desc">Обеспечим комплексное сопровождение ИТ-инфраструктуры. Окажем
                     поддержку рабочих мест, прикладного ПО, периферийного оборудования.
                 </div>
@@ -466,7 +460,6 @@
                     </div>
                 </ul>
             </nav>
-        
         </div>
         <div class="row">
             <div class="footer__bottom">
@@ -475,7 +468,6 @@
             </div>
         </div>
     </div>
-
 </footer>
 <div class="button-up d-none">
     <img src="/src/img/icons/arrow.svg" class="button-up__img">
